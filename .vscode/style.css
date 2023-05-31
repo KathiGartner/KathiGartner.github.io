@@ -1,0 +1,96 @@
+/* Allgemein */
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.limegreen{
+    color: #77c897
+}
+
+.navbar,
+.carousel {
+    border-bottom: 1px solid #888;
+}
+
+.container{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid #888;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    font-weight: bold;
+    margin: 2rem;
+}
+a{
+    margin-bottom: 1.2rem;
+}
+.btn{
+    background-color:#77c897;
+}
+/* Navigation */
+
+.nav-link {
+    cursor: pointer;
+}
+
+.nav-link:active,
+.nav-link:hover {
+    color: #77c897 !important;
+}
+
+.icon-link:active svg,
+.icon-link:hover svg {
+    color: #77c897!important;
+}
+
+.slider-image{
+    width: auto;
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.container-image{
+    width: 50%;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+    margin-bottom:2rem;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+}
+
+.text-color{
+    padding: 3rem;
+    border-color: #77c897;
+    background-size: cover;
+    background-color:#77c897;
+}
+
+.buttonDiv{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+
+}
+/*portfolio*/
+.list-group-mine .list-group-item{
+    color: #77c897;
+    font-weight:bolder;
+}
+.kursiv{
+    font-style:italic;
+}
